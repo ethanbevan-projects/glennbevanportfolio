@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glenn Bevan Portfolio</title>
+
+    <link rel="stylesheet" href="../../style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prata&family=Spectral:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/adobe-garamond-pro-2"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://db.onlinewebfonts.com/c/2aea0ac500c896188f9ad191c231029c?family=Orpheus+Pro"
+      rel="stylesheet"
+    />
+    <link
+      href="https://db.onlinewebfonts.com/c/81651a191b7129993b0871c834a19600?family=OrpheusPro-Bold"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="navbar page-width-custom-nav">
+      <a href="/" class="logo-default">Glenn Bevan Portfolio</a>
+
+      <nav class="nav-links">
+        <div class="nav-links-inner">
+          <a href="/">About</a>
+          <a href="../" class="default-under">Work</a>
+          <a href="#">Case Studies</a>
+        </div>
+      </nav>
+
+      <a
+        href="https://www.linkedin.com/in/glennbevan/"
+        target="_blank"
+        class="linkedin"
+      >
+        <img src="../../Images/linkedinlogo2.jpg" />
+      </a>
+      <div class="menu-icon" onclick="toggleMenu()">
+        <svg id="hamburger" viewBox="0 0 60 40">
+          <g
+            stroke="#787878"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path id="top-line" d="M10,14 L50,14 Z"></path>
+            <path id="bottom-line" d="M10,26 L50,26 Z"></path>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="page-width-custom">
+      <div class="work-outer-grid">
+        <div class="project-wrapper">
+          <h1>Architectural and Building Products</h1>
+
+          <div class="project-hero">
+            <img
+              src="/Images/individual-work/Architectural.webp"
+              alt="Leading a Design Team"
+            />
+            <img
+              src="/Images/individual-work/Building.webp"
+              alt="Leading a Design Team"
+            />
+          </div>
+
+          <p>
+            The Architectural and Building products has a very broad range of
+            products and sub categories of which a small selection have been
+            shown. Starting as a design consultant for James Hardie designing
+            window and doors systems, portable buildings and facade fixing
+            systems, led to a large range of successfully commercialised
+            projects with Trend Windows, Centor Architectural, Breezway Louvres,
+            FutureWall internal partitioning systems and partnering with
+            Decorative Imaging under a royalty arrangement to develop an
+            aluminium decking system called Decodeck. The Louvre system that was
+            designed for Breezway more than 20 years ago is still the company’s
+            main product line and was successfully defended against patent
+            infringement.
+          </p>
+          <nav class="work-pager" aria-label="Project navigation">
+            <a id="prevItem" class="pager prev" href="">
+              <span class="arrow">←</span>
+              <span id="prevLabel"></span>
+            </a>
+            <a id="nextItem" class="pager next" href="">
+              <span id="nextLabel"></span>
+              <span class="arrow">→</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <script src="../../script.js" defer></script>
+  </body>
+
+  <footer class="footer">
+    <p><a href="mailto:glennbevan@bigpond.com">glennbevan@bigpond.com</a></p>
+    <p><a href="tel:+61414728711">+61 414 728 711</a></p>
+  </footer>
+</html>
