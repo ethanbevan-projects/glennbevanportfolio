@@ -1015,3 +1015,23 @@ svg {
 .intro {
   overflow-wrap: anywhere;
 }
+
+@media screen and (max-width: 930px) {
+  .hero p {
+    width: 80%;
+  }
+  .intro h3 {
+    margin-top: 10px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .hero p {
+    width: 100%;
+  }
+  .intro h3 {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
