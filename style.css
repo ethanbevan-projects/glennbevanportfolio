@@ -1007,4 +1007,7 @@ svg {
   .project-due-items {
     flex-direction: column;
   }
+  .project-due-items img {
+    margin: 40px 0px 0px 0px;
+  }
 }
