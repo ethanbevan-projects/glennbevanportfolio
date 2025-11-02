@@ -97,13 +97,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const nextEl = document.getElementById("nextItem");
 
   if (prev && prevEl) {
-    prevEl.href = `/casestudies/${prev.slug}/`;
+    prevEl.href = `/glennbevanportfolio/casestudies/${prev.slug}/`;
     prevEl.querySelector("#prevLabel").textContent = prev.title;
     prevEl.style.display = "";
   } else if (prevEl) prevEl.style.display = "none";
 
   if (next && nextEl) {
-    nextEl.href = `/casestudies/${next.slug}/`;
+    nextEl.href = `/glennbevanportfolio/casestudies/${next.slug}/`;
     nextEl.querySelector("#nextLabel").textContent = next.title;
     nextEl.style.display = "";
   } else if (nextEl) nextEl.style.display = "none";
